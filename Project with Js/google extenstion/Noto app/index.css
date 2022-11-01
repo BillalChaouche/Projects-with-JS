@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+body{
+    background: transparent;
+    width: 450px;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+
+}
+.colors{
+    margin-top: -3px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+
+}
+.colors button{
+    width: 10px;
+    height: 12px;
+    border-radius: 100%;
+    border: none;
+    margin-left: 10px;
+
+    
+}
+.green{
+    background-color:rgb(28, 197, 194);
+    transition: all 0.4s ease;
+
+}
+.green:hover{
+     box-shadow:1px 2px 10px rgb(28, 197, 194);
+     transform: scale(1.1);
+     
+}
+.yellow{
+    background-color:rgb(242, 252, 62);
+    transition: all 0.4s ease;
+
+}
+.yellow:hover{
+     box-shadow:1px 2px 10px rgb(242, 252, 62);;
+     transform: scale(1.1);
+     
+}
+.pink{
+    background-color:rgb(255, 116, 211);
+    transition: all 0.4s ease;
+
+}
+.pink:hover{
+     box-shadow:1px 2px 10px rgb(255, 116, 211);
+     transform: scale(1.1);
+     
+}
+.blue{
+    background-color:rgb(90, 178, 251);
+    transition: all 0.4s ease;
+
+}
+.blue:hover{
+     box-shadow:1px 2px 10px rgb(90, 178, 251);
+     transform: scale(1.1);
+     
+}
+.input-save{
+    margin-top:0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+
+input{
+    margin-top: 0;
+    flex: 1;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(28, 197, 194);
+    border-right: none;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.14);
+    color: black;
+    transition: 0.4s;
+    
+}
+input::placeholder{
+    color: rgba(78, 78, 78, 0.507);
+}
+input:focus{
+    box-shadow: 1px 3px 20px rgba(28, 197, 194, 0.508);
+    background-color: aliceblue;
+    
+    
+
+}
+.save-el{
+    margin-left: -38px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(28, 197, 194);
+    border-top: 1px solid rgb(28, 197, 194);
+    border-bottom: 1px solid rgb(28, 197, 194);
+    border-right: 1px solid rgb(28, 197, 194);
+    
+    background-color: white;
+    transition: 0.4s;
+
+
+
+}
+.save-el:hover{
+    background-color: rgb(28, 197, 194);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 20px rgba(28, 197, 194, 0.508);
+
+}
+
+.notes{
+    margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+    row-gap: 23px;
+   
+    
+
+}
+.note-el{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 200px;
+    background-color: aliceblue;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.14);
+    transition: all 0.5s ease;
+    
+    
+}
+.note-el header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+    
+
+
+}
+.note-el header button{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin-right: 8px;
+    border-radius: 100%;
+    transition: 0.4s;
+    
+
+}
+.note-el header button:hover{
+    background-color: rgb(235, 124, 124);
+}
+.div-time{
+    margin-top: 5px;
+    height: 40px;
+}
+.note-el header p{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+
+}
+.time-1{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.518);
+}
+.time-2{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.649);
+}
+
+
+.note-el header button img{
+    width: 12px;
+    height: 12px;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.content{
+    margin-left: 10px;
+    font-size: 3.4vw;
+    width: 190px;
+    height: auto;
+}
+
+.fall2{
+    transform: scale(0.005);
+    opacity: 0.5;
+}
+.fall2 header{
+    background-color: rgb(235, 124, 124);
+    
+}
+.input-yellow-color{
+    border: 1px solid  rgb(242, 252, 62) ;
+    
+
+
+}
+.input-yellow-color:focus{
+    box-shadow: 1px 3px 20px rgba(242, 252, 62, 0.558);
+}
+
+.input-save-yellow{
+    color: rgb(242, 252, 62);
+    border-top: 1px solid  rgb(242, 252, 62);
+    border-bottom: 1px solid  rgb(242, 252, 62);
+    border-right: 1px solid  rgb(242, 252, 62);
+}
+.input-save-yellow:hover{
+  background-color: rgb(242, 252, 62);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 20px rgba(242, 252, 62, 0.558);
+}
+.header-yellow{
+    background-color: rgba(242, 252, 62, 0.675);
+    
+}
+.input-green-color:focus{
+    box-shadow: 1px 3px 20px rgba(28, 197, 194, 0.508);
+}
+
+.input-save-green{
+    color: rgb(28, 197, 194);
+    border-top: 1px solid  rgb(28, 197, 194);
+    border-bottom: 1px solid  rgb(28, 197, 194);
+    border-right: 1px solid  rgb(28, 197, 194);
+}
+.input-save-green:hover{
+  background-color: rgb(28, 197, 194);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 20px rgba(28, 197, 194, 0.508);
+}
+.header-green{
+    background-color: rgba(28, 197, 194, 0.607);
+}
+
+.input-pink-color{
+    border: 1px solid  rgb(255, 116, 211); ;
+    
+
+
+}
+.input-pink-color:focus{
+    box-shadow: 1px 3px 20px rgba(255, 116, 211, 0.588);
+}
+
+.input-save-pink{
+    color: rgb(255, 116, 211);
+    border-top: 1px solid rgb(255, 116, 211);
+    border-bottom: 1px solid rgb(255, 116, 211);
+    border-right: 1px solid  rgb(255, 116, 211);
+}
+.input-save-pink:hover{
+  background-color: rgb(255, 116, 211);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 20px rgba(255, 116, 211, 0.588);
+}
+.header-pink{
+    background-color:rgba(255, 116, 211, 0.738);
+    
+}
+
+.input-blue-color{
+    border: 1px solid  rgb(90, 178, 251) ;
+    
+
+
+}
+.input-blue-color:focus{
+    box-shadow: 1px 3px 20px rgba(90, 179, 251, 0.584);
+}
+
+.input-save-blue{
+    color: rgb(90, 178, 251);
+    border-top: 1px solid  rgb(90, 178, 251);
+    border-bottom: 1px solid  rgb(90, 178, 251);
+    border-right: 1px solid  rgb(90, 178, 251);
+}
+.input-save-blue:hover{
+  background-color: rgb(90, 178, 251);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 20px rgba(90, 179, 251, 0.584);
+}
+.header-blue{
+    background-color: rgba(90, 179, 251, 0.584);
+    
+}

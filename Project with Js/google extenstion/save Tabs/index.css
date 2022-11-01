@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 425px;
+}
+input{
+    width: 425px;
+    display: block;
+    padding-left: 12px ;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+    box-sizing:border-box;
+    
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    
+    
+    border: 1px solid rgba(128, 71, 234, 0.716); 
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 0;
+    
+}
+input::placeholder{
+    color: rgba(82, 82, 82, 0.637);
+}
+input:focus{
+   box-shadow: 1px 2px 10px rgba(128, 71, 234, 0.178);
+   
+}
+input:focus::placeholder{
+    color: transparent;
+} 
+button{
+    width: 120px;
+    margin-top: 15px;
+    margin-right: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid rgba(128, 71, 234, 0.579);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(128, 71, 234, 0.716);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+
+}
+#delete-btn{
+    background-color: white;
+    
+    color: rgba(128, 71, 234, 0.716);
+    
+}
+button:hover{
+   background-color: rgba(128, 71, 234, 0.862);
+   box-shadow: 1px 2px 10px rgba(128, 71, 234, 0.258);
+}
+ul{
+    
+    list-style: none;
+    padding-left: 6px;
+    margin-top: 15px;
+    
+
+    
+}
+li{
+    margin-top: 7px;
+
+}
+ a{ 
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(120, 47, 255);
+    
+    
+}
+::selection{
+    color: white;
+    background-color: rgba(118, 78, 193, 0.716);;
+}
